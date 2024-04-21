@@ -1,5 +1,4 @@
 import PhotoList from "@/components/PhotoList";
-import { getDictionary } from "./disctionaries";
 
 export default async function Home() {
   const response = await fetch(`${process.env.BASE_API_URL}/photos`);
